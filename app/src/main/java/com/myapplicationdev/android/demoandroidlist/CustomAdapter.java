@@ -18,7 +18,7 @@ public class CustomAdapter extends ArrayAdapter {
     ArrayList<AndroidVersion> versionList;
 
     public CustomAdapter(@NonNull Context context, int resource, ArrayList<AndroidVersion> objects) {
-        super(context, resource);
+        super(context, resource, objects);
 
         parent_context = context;
         layout_id = resource;
